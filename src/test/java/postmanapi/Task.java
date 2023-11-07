@@ -15,7 +15,7 @@ public class Task {
 
 //    @Test
 //    public void task1(){
-//        RestAssured.baseURI = "https://api.getpostman.com";
+//        Test12.baseURI = "https://api.getpostman.com";
 //        Response response=given()
 //                .header("X-Api-Key","PMAK-653fddfb74bc26002a7fffb9-e29a9d28772779d6615ebdc0e9d5f30cc0")
 //                .when()

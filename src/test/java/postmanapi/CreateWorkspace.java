@@ -16,11 +16,11 @@ public class CreateWorkspace {
 
 //    @Test
 //    public void createWorkspace(){
-//        RestAssured.baseURI = "https://api.getpostman.com/";
+//        Test12.baseURI = "https://api.getpostman.com/";
 //        Response response = given()
 //                .body("{\n" +
 //                        "    \"workspace\": {\n" +
-//                        "        \"name\": \"Workspace_created_by_restassured\",\n" +
+//                        "        \"name\": \"Workspace_created_by_restassured_3\",\n" +
 //                        "        \"type\": \"personal\",\n" +
 //                        "        \"description\": \"This workspace is created by restassured automation\"\n" +
 //                        "    }\n" +
