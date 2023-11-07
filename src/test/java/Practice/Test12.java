@@ -95,17 +95,20 @@ public class Test12 {
 
         JsonPath jsonPath =response.jsonPath();
         String productId = jsonPath.getString("orders[0].products[0].product_id");
+        System.out.println(productId);
 
-        Integer size = jsonPath.getInt("orders[0].products");
+        Integer size = jsonPath.getInt("orders[0].products.size()"); //sie() method used to get the size of the array
+        System.out.println(size);
 
         for (int i = 0; i < size; i++) {
             String ans = null;
             if (jsonPath.getString("orders[0].products[" + i + "].product_id")
-                    .equalsIgnoreCase("1002")) {
+                    .equals("1002")) {
                 ans = jsonPath.getString("orders[0].products[" + i + "].name");
+                Assert.assertEquals(ans, "Widget B");
 
             }
-            Assert.assertEquals(ans, "1002");
+//            Assert.assertEquals(ans, "Widget B");
 
         }
 
