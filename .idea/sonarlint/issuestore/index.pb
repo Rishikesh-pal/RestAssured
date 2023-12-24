@@ -200,7 +200,5 @@ Q.idea/sonarlint/securityhotspotstore/d/7/d7e53413ce7f6118358a0eb67bed8ead97608a
 0src/test/java/specification/RequestResponse.java,3\7\37bfafd8b674cdce5edabf520af389f61484f7a6
 Q
 !src/test/java/log/LogMethods.java,5\0\505d710b8c86fbc26b91b07b6fb612b6e6c5bca0
-P
- src/test/java/Practice/deom.java,3\1\317b8dcada602bd2a2d9bd0fcf6e6027899272d9
 ]
 -src/test/java/Practice/JsonPathClassRead.java,3\0\30c08fa530fb67c140857bf9e31c5b19999f744b

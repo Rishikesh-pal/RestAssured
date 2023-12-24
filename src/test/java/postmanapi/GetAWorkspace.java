@@ -32,7 +32,6 @@ public class GetAWorkspace {
                 .log().all()
                 .when()
                 .post("v1/users/31z53r6umg5bm7udfjxxxg42emyi/playlists")
-
                 .then()
                 .log().all();
     }

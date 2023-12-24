@@ -68,7 +68,4 @@ public class Task {
         JsonPath jsonPath = response.jsonPath();
         Assert.assertEquals(jsonPath.getString("message"),id_post);
     }
-
-
-
 }
